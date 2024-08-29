@@ -9,11 +9,11 @@ class Database
     {
         if (self::$instance === null) {
             self::$instance = new SimploDB([
-                'host' => 'localhost',
+                'host' => 'http://triton.inversioneslacentral.com',
                 'database' => 'virtualstore',
                 'username' => 'root',
-                'password' => '123456',
-                'port' => 3308,
+                'password' => 'S4nt4Luc14*./',
+                'port' => 3307,
             ]);
         }
         return self::$instance;
